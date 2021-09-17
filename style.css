@@ -9,7 +9,7 @@
     box-sizing: border-box;
   }
   body{
-    background-color: limegreen;
+    background-color: rgb(153, 155, 153);
 }
   
   /* navbar */
@@ -22,7 +22,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: seagreen;
+    background-color: rgb(59, 59, 59);
   }
   
   .navbar {
@@ -83,7 +83,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: seagreen;
+    color: rgb(59, 59, 59);
 }
 #about .container{
     
@@ -144,7 +144,7 @@ margin-top: 16px;
 .btn-kirim{
     width: 100px;
     height: 40px;
-    background-color:seagreen;
+    background-color:rgb(59, 59, 59);
     text-align: center;
     line-height: 40px;
     display: block;
