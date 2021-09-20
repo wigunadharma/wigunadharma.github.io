@@ -10,6 +10,7 @@
   }
   body{
     background-color: rgb(153, 155, 153);
+    background-image: url(img/images.jpg);
 }
   
   /* navbar */
@@ -185,5 +186,5 @@ margin-top: 16px;
     color: red;
 }
 .a-footer{
-    color: white;
+    color: grey;
 }
