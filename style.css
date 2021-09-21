@@ -1,20 +1,17 @@
-
-
-
-
-  * {
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-  }
-  body{
+}
+
+body {
     background-color: rgb(153, 155, 153);
     background-image: url(img/images.jpg);
 }
-  
-  /* navbar */
-  #nav {
+
+/* navbar */
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,14 +21,14 @@
     left: 0px;
     top: 0px;
     background-color: rgb(59, 59, 59);
-  }
-  
-  .navbar {
+}
+
+.navbar {
     margin: 0px auto 0px;
     width: 80%;
-  }
-  
-  #nav .container {
+}
+
+#nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,116 +37,131 @@
     list-style: none;
     height: 60px;
     line-height: 60px;
-  }
-  
-  .img-navbar {
+}
+
+.img-navbar {
     width: 40px;
     height: 40px;
     display: flex;
     margin: auto 0px;
     border-radius: 10px;
-  }
-  
-  ul li,
-  .nav-link {
+}
+
+ul li,
+.nav-link {
     text-decoration: none;
     list-style: none;
     margin-left: 10px;
     font-size: 16px;
     font-weight: bold;
     color: white;
-  }
+}
 
 
-#jumbotron .container{
+#jumbotron .container {
     width: 80%;
-    
+
     margin: 0 auto;
 }
-.img-jumbotron{
+
+.img-jumbotron {
     display: block;
-    margin: 100px auto 0 ;
+    margin: 100px auto 0;
     width: 200px;
     border-radius: 100%;
 }
-.judul-content{
+
+.judul-content {
     margin: 32px 0;
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
     font-weight: bolder;
 }
-.sub-content{
+
+.sub-content {
     margin: 8px 0;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     color: rgb(59, 59, 59);
 }
-#about .container{
-    
+
+#about .container {
+
     margin: 100px auto 0;
     width: 80%;
 }
-.judul-about{
+
+.judul-about {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
 
 }
-.p-about-1{
+
+.p-about-1 {
     text-align: center;
     margin: 16px 0;
 }
-.p-about-2{
+
+.p-about-2 {
     text-align: end;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-.p-about-3{
+
+.p-about-3 {
     text-align: start;
     font-style: italic;
     margin: 16px 0;
 
 }
-#contact .container{
-    
+
+#contact .container {
+
     width: 80%;
     margin: 100px auto 0;
 }
-.judul-contact{
+
+.judul-contact {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
 }
-.form{
-    
+
+.form {
+
     margin: 24px auto 0;
     width: 50%;
 }
-.form-list{
+
+.form-list {
     width: 100%;
     height: 20px;
     border: none;
     border-radius: 5px;
 }
-.form-list-pesan{
+
+.form-list-pesan {
     width: 100%;
     height: 100px;
     border: none;
     border-radius: 10px;
 }
-.form .label{
-display: block;
-margin-top: 16px;
+
+.form .label {
+    display: block;
+    margin-top: 16px;
 }
-.btn-kirim{
+
+.btn-kirim {
     width: 100px;
     height: 40px;
-    background-color:rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
     text-align: center;
     line-height: 40px;
     display: block;
-    
+
     margin-top: 24px;
     border-radius: 10px;
     color: white;
@@ -157,34 +169,39 @@ margin-top: 16px;
     font-weight: bold;
 
 }
-#footer{
+
+#footer {
     background-color: black;
     height: 100px;
 }
-#footer .container{
+
+#footer .container {
     width: 80%;
     margin: 100px auto 0;
-    
+
 
 }
 
-.judul-footer{
+.judul-footer {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     color: white;
 
 }
-.p-footer{
+
+.p-footer {
     text-align: center;
     margin: 16px;
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
-.love{
+
+.love {
     color: red;
 }
-.a-footer{
+
+.a-footer {
     color: grey;
 }
