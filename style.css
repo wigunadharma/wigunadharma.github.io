@@ -7,9 +7,8 @@
 
 body {
   background-color: rgb(153, 155, 153);
-  background-image: url(img/images.jpg);
+  background-image: url(img/bg2.jpg);
 }
-
 /* navbar */
 #nav {
   display: flex;
